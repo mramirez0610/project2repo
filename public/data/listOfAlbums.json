@@ -1,0 +1,299 @@
+[
+    {
+        "albumTitle": "Selected Ambient Works 85-92",
+        "yearReleased": "1992",
+        "description": "",
+        "trackList": [
+            {
+                "id": "0",
+                "songTitle": "Xtal",
+                "length" : "4:54"
+            },
+            {
+                "id": "1",
+                "songTitle": "Tha",
+                "length" : "9:06"
+            },
+            {
+                "id": "2",
+                "songTitle": "PulseWidth",
+                "length" : "3:46"
+            },
+            {
+                "id": "3",
+                "songTitle": "Ageispolis",
+                "length" : "5:23"
+            },
+            {
+                "id": "4",
+                "songTitle": "i",
+                "length" : "1:17"
+            },
+            {
+                "id": "5",
+                "songTitle": "Green Calx",
+                "length" : "6:05"
+            },
+            {
+                "id": "6",
+                "songTitle": "Heliosphan",
+                "length" : "4:51"
+            },
+            {
+                "id": "7",
+                "songTitle": "We Are The Music Makers",
+                "length" : "7:43"
+            },
+            {
+                "id": "8",
+                "songTitle": "Schottkey 7th Path",
+                "length" : "5:08"
+            },
+            {
+                "id": "9",
+                "songTitle": "Ptolemy",
+                "length" : "7:10"
+            },
+            {
+                "id": "10",
+                "songTitle": "Hedphelym",
+                "length" : "6:00"
+            },
+            {
+                "id": "11",
+                "songTitle": "Delphium",
+                "length" : "5:26"
+            },
+            {
+                "id": "12",
+                "songTitle": "Actium",
+                "length" : "7:32"
+            }
+        ]
+    },
+    {
+        "albumName": "Selected Ambient Works Volume II",
+        "yearReleased": "1994",
+        "description": "",
+        "trackList": [
+            {
+                "id": "0",
+                "songTitle": "Cliffs",
+                "length" : ""
+            },
+            {
+                "id": "1",
+                "songTitle": "",
+                "length" : ""
+            }
+        ]    
+    },
+    {
+        "albumName": "...I Care Because You Do",
+        "yearReleased": "1995",
+        "description": "",
+        "trackList": [
+            {
+                "id": "0",
+                "songTitle": "Acrid Avid Jam Shred",
+                "length" : "7:38"
+            },
+            {
+                "id": "1",
+                "songTitle": "The Waxen Pith",
+                "length" : "4:50"
+            },
+            {
+                "id": "2",
+                "songTitle": "Wax The Nip",
+                "length" : "4:19"
+            },
+            {
+                "id": "3",
+                "songTitle": "Icct Hedral",
+                "length" : "6:07"
+            },
+            {
+                "id": "4",
+                "songTitle": "Ventolin",
+                "length" : "4:29"
+            },
+            {
+                "id": "5",
+                "songTitle": "Come On You Slags!",
+                "length" : "5:45"
+            },
+            {
+                "id": "6",
+                "songTitle": "Start as You Mean to Go On",
+                "length" : "6:05"
+            },
+            {
+                "id": "7",
+                "songTitle": "Wet Tip Hen Ax",
+                "length" : "5:17"
+            },
+            {
+                "id": "8",
+                "songTitle": "Mookid",
+                "length" : "3:51"
+            },
+            {
+                "id": "9",
+                "songTitle": "Alberto Balsalm",
+                "length" : "5:11"
+            },
+            {
+                "id": "10",
+                "songTitle": "Cow Cud Is a Twin",
+                "length" : "5:34"
+            },
+            {
+                "id": "11",
+                "songTitle": "Next Heap With",
+                "length" : "4:43"
+            }
+        ] 
+    },
+    {
+        "albumName": "Richard D. James Album",
+        "yearReleased": "1996",
+        "description": "",
+        "trackList": [
+            {
+                "id": "0",
+                "songTitle": "4",
+                "length" : "3:37"
+            },
+            {
+                "id": "1",
+                "songTitle": "Cornish Acid",
+                "length" : "2:14"
+            },
+            {
+                "id": "2",
+                "songTitle": "Peek 824545201",
+                "length" : "3:05"
+            },
+            {
+                "id": "3",
+                "songTitle": "Fingerbib",
+                "length" : "3:48"
+            },
+            {
+                "id": "4",
+                "songTitle": "Carn Marth",
+                "length" : "2:33"
+            },
+            {
+                "id": "5",
+                "songTitle": "To Cure a Weakling Child",
+                "length" : "4:03"
+            },
+            {
+                "id": "6",
+                "songTitle": "Goon Gumpas",
+                "length" : "2:02"
+            },
+            {
+                "id": "7",
+                "songTitle": "Yellow Calx",
+                "length" : "3:04"
+            },
+            {
+                "id": "8",
+                "songTitle": "Girl/Boy Song",
+                "length" : "4:52"
+            },
+            {
+                "id": "9",
+                "songTitle": "Logan Rock Witch",
+                "length" : "3:33"
+            }
+        ] 
+    },
+    {
+        "albumName": "Drukqs",
+        "yearReleased": "2001",
+        "description": "",
+        "trackList": [
+            {
+                "id": "",
+                "songTitle": "",
+                "length" : ""
+            },
+            {
+                "id": "",
+                "songTitle": "",
+                "length" : ""
+            }
+        ] 
+    },
+    {
+        "albumName": "Syro",
+        "yearReleased": "2017",
+        "description": "",
+        "trackList": [
+            {
+                "id": "0",
+                "songTitle": "minipops 67 (source field mix)",
+                "length" : "4:47"
+            },
+            {
+                "id": "1",
+                "songTitle": "XMAS_EVET10 (thanaton3 mix)",
+                "length" : "10:31"
+            },
+            {
+                "id": "2",
+                "songTitle": "produk 29",
+                "length" : "5:03"
+            },
+            {
+                "id": "3",
+                "songTitle": "4 bit 9d api+e+6",
+                "length" : "4:28"
+            },
+            {
+                "id": "4",
+                "songTitle": "180db_",
+                "length" : "3:11"
+            },
+            {
+                "id": "5",
+                "songTitle": "CIRCLONT6A (syrobonkus mix)",
+                "length" : "6:00"
+            },
+            {
+                "id": "6",
+                "songTitle": "fz pseudotimestretch+e+3",
+                "length" : "0:58"
+            },
+            {
+                "id": "7",
+                "songTitle": "CIRCLONT14 (shrymoming mix)",
+                "length" : "7:21"
+            },
+            {
+                "id": "8",
+                "songTitle": "syro u473t8+e (piezoluminescence mix)",
+                "length" : "6:32"
+            },
+            {
+                "id": "9",
+                "songTitle": "PAPAT4 (pineal mix)",
+                "length" : "4:18"
+            },
+            {
+                "id": "10",
+                "songTitle": "s950tx16wasr10 (earth portal mix)",
+                "length" : "6:01"
+            },
+            {
+                "id": "11",
+                "songTitle": "aisatsana",
+                "length" : "5:21"
+            }
+        ] 
+    }
+]
