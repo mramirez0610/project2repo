@@ -1,5 +1,5 @@
 import React from "react";
-import MusicView from "./components/musicView";
+import MusicView from "./components/musicComp/musicView";
 import "./App.css";
 
 export default function App() {
@@ -10,17 +10,20 @@ export default function App() {
         <h2>Start editing to see some magic happen</h2>
         <p>testing out computer commits</p>
         <p>looks like they work!</p>
-        <MusicView />
-        {/* 
-        
-        questions to ask:
+        {/* delete this div if you don't need it*/}
+        <div className="componentArea">
+          <MusicView />
+          {/* 
+          
+          questions to ask:
 
-        -are mui core / material the same?
-        
-        -why does it return an empty array first?
-             - should i do the same thing as in my calendar?
+          -are mui core / material the same?
+          
+          -why does it return an empty array first?
+              - should i do the same thing as in my calendar?
 
-        */}
+          */}
+        </div>
       </div>
     </div>
   );
