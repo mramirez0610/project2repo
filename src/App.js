@@ -7,7 +7,7 @@ export default function App() {
     <div className="App">
       <div className="main">
         <h1>sup marco</h1>
-        <h2>Start editing to see some magic happen!</h2>
+        <h2>Start editing to see some magic happen</h2>
         <AlbumView />
         {/* 
         
