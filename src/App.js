@@ -9,6 +9,7 @@ export default function App() {
         <h1>sup marco</h1>
         <h2>Start editing to see some magic happen</h2>
         <p>testing out computer commits</p>
+        <p>looks like they work!</p>
         <AlbumView />
         {/* 
         
