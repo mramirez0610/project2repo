@@ -1,5 +1,5 @@
 import React from "react";
-import AlbumView from "./components/albumView";
+import MusicView from "./components/musicView";
 import "./App.css";
 
 export default function App() {
@@ -10,7 +10,7 @@ export default function App() {
         <h2>Start editing to see some magic happen</h2>
         <p>testing out computer commits</p>
         <p>looks like they work!</p>
-        <AlbumView />
+        <MusicView />
         {/* 
         
         questions to ask:

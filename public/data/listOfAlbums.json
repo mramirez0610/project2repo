@@ -1,7 +1,8 @@
 [
     {
         "id":"1",
-        "albumTitle": "Selected Ambient Works 85-92",
+        "cover": "images/SAW.png",
+        "aTitle": "Selected Ambient Works 85-92",
         "yearReleased": "1992",
         "description": "",
         "trackList": [
@@ -74,7 +75,8 @@
     },
     {
         "id":"2",
-        "albumName": "...I Care Because You Do",
+        "cover": "images/ICBYD.jpg",
+        "aTitle": "...I Care Because You Do",
         "yearReleased": "1995",
         "description": "",
         "trackList": [
@@ -142,7 +144,8 @@
     },
     {
         "id":"3",
-        "albumName": "Richard D. James Album",
+        "cover": "images/RDJA.jpg",
+        "aTitle": "Richard D. James Album",
         "yearReleased": "1996",
         "description": "",
         "trackList": [
@@ -200,7 +203,8 @@
     },
     {
         "id":"4",
-        "albumName": "Syro",
+        "cover": "images/SYRO.jpg",
+        "aTitle": "Syro",
         "yearReleased": "2017",
         "description": "",
         "trackList": [

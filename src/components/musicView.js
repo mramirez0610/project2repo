@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from "react";
+import TrackListing from "./trackListing"
 
-export default function AlbumView() {
+export default function MusicView() {
   const [albums, setAlbums] = useState([]);
 
   useEffect(() => {
@@ -12,6 +13,5 @@ export default function AlbumView() {
       });
   }, []);
 
-  console.log(albums);
-  return <div> </div>;
+  return (<div><TrackListing /></div>);
 }
