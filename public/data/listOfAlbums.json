@@ -72,23 +72,6 @@
         ]
     },
     {
-        "albumName": "Selected Ambient Works Volume II",
-        "yearReleased": "1994",
-        "description": "",
-        "trackList": [
-            {
-                "id": "0",
-                "songTitle": "Cliffs",
-                "length" : ""
-            },
-            {
-                "id": "1",
-                "songTitle": "",
-                "length" : ""
-            }
-        ]    
-    },
-    {
         "albumName": "...I Care Because You Do",
         "yearReleased": "1995",
         "description": "",
@@ -209,23 +192,6 @@
                 "id": "9",
                 "songTitle": "Logan Rock Witch",
                 "length" : "3:33"
-            }
-        ] 
-    },
-    {
-        "albumName": "Drukqs",
-        "yearReleased": "2001",
-        "description": "",
-        "trackList": [
-            {
-                "id": "",
-                "songTitle": "",
-                "length" : ""
-            },
-            {
-                "id": "",
-                "songTitle": "",
-                "length" : ""
             }
         ] 
     },
