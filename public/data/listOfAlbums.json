@@ -1,5 +1,6 @@
 [
     {
+        "id":"1",
         "albumTitle": "Selected Ambient Works 85-92",
         "yearReleased": "1992",
         "description": "",
@@ -72,6 +73,7 @@
         ]
     },
     {
+        "id":"2",
         "albumName": "...I Care Because You Do",
         "yearReleased": "1995",
         "description": "",
@@ -139,6 +141,7 @@
         ] 
     },
     {
+        "id":"3",
         "albumName": "Richard D. James Album",
         "yearReleased": "1996",
         "description": "",
@@ -196,6 +199,7 @@
         ] 
     },
     {
+        "id":"4",
         "albumName": "Syro",
         "yearReleased": "2017",
         "description": "",
