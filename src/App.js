@@ -8,6 +8,7 @@ export default function App() {
       <div className="main">
         <h1>sup marco</h1>
         <h2>Start editing to see some magic happen</h2>
+        <p>testing out computer commits</p>
         <AlbumView />
         {/* 
         

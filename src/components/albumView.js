@@ -8,8 +8,7 @@ export default function AlbumView() {
       .then((res) => res.json())
       .then((data) => {
         //assigns our data from json into an actual variable
-        setAlbums(data);
-        
+        setAlbums(data);  
       });
   }, []);
 
