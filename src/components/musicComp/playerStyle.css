@@ -1,0 +1,20 @@
+.albumChoice{
+    display: flex;
+    justify-content: center;
+}
+
+.img{    
+    float: left;
+    margin: 10px;
+    bottom: 0;
+}
+
+
+
+/*
+.musicCol{
+    display: inline-grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+*/

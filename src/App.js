@@ -19,8 +19,7 @@ export default function App() {
 
           -are mui core / material the same?
           
-          -why does it return an empty array first?
-              - should i do the same thing as in my calendar?
+          -it for some reason is one click behind when it reads data.
 
           */}
         </div>

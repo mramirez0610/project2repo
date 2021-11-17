@@ -1,10 +1,12 @@
 import React, { useState, useEffect } from "react";
 import AlbumView from "./albumView";
 import TrackListing from "./trackListing"
+import DescriptionView from "./descView";
+import "./playerStyle.css"
 
 export default function MusicView() {
   const [albums, setAlbums] = useState([]);
-  const [selectAl, setSelectAl] = useState({})
+  const [selectedAl, setSelectedAl] = useState({})
 
   useEffect(() => {
     fetch("data/listOfAlbums.json")
@@ -17,22 +19,28 @@ export default function MusicView() {
 
   return (
   <div>
-    <AlbumView 
-      albums={albums}
-      cover={albums.cover}
-      onSelect={(id) => {
-        albumSelected(id);
-      }}
+    <TrackListing
+      selectedAl = {selectedAl}
     />
-    <TrackListing />
+    <DescriptionView 
+      albums = {albums}
+    />
+    <div className="albumChoice">
+      <AlbumView 
+        albums={albums}
+        onSelect={(id) => {
+          albumSelected(id);
+        }}
+      />
+    </div>
   </div>
   );
 
   function albumSelected(id){
     const foundAlbum = albums.find((album) => album.id === id);
 
-    setSelectAl(foundAlbum);
+    setSelectedAl(foundAlbum);
 
-    console.log(selectAl);
+    console.log(selectedAl.trackList);
   }
 }
