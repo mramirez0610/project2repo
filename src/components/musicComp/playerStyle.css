@@ -22,6 +22,10 @@
 .descBox{
     border: thick double #000;
     width: 30%;
+    background-color: #dedede;
 }
 
-
+.description{
+    text-align: left;
+    padding-left: 4px;
+}

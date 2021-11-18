@@ -25,7 +25,7 @@ export default function MusicView() {
       />
       <div className="descBox">
         <DescriptionView 
-          albums = {albums}
+          selectedAl = {selectedAl}
         />
       </div>
     </div>
