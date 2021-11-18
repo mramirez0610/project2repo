@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, Component } from "react";
 import AlbumView from "./albumView";
 import TrackListing from "./trackListing"
 import DescriptionView from "./descView";
+import HeaderView from "./headerComp/albumBanner";
 import "./playerStyle.css"
 
 export default function MusicView() {
@@ -13,16 +14,24 @@ export default function MusicView() {
       .then((res) => res.json())
       .then((data) => {
         //assigns our data from json into an actual variable
-        setAlbums(data);  
+        setAlbums(data); 
       });
   }, []);
 
   return (
   <div>
-    <div className="musicCol">
-      <TrackListing
+    <div >
+      <HeaderView 
         selectedAl = {selectedAl}
       />
+    </div>
+    <div className="musicCol">
+      <div>
+        <b><p>tracklist :</p></b>
+        <TrackListing
+          selectedAl = {selectedAl}
+        />
+      </div>
       <div className="descBox">
         <DescriptionView 
           selectedAl = {selectedAl}
@@ -44,7 +53,5 @@ export default function MusicView() {
     const foundAlbum = albums.find((album) => album.id === id);
 
     setSelectedAl(foundAlbum);
-
-    console.log(selectedAl.trackList);
   }
 }

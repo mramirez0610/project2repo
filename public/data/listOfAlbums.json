@@ -4,7 +4,9 @@
         "cover": "images/SAW.png",
         "aTitle": "Selected Ambient Works 85-92",
         "yearReleased": "1992",
-        "description": "hello!",
+        "totalTracks": "13",
+        "runTime": "74:40",
+        "description": "hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!hello!",
         "trackList": [
             {
                 "id": "0",
@@ -78,6 +80,8 @@
         "cover": "images/ICBYD.jpg",
         "aTitle": "...I Care Because You Do",
         "yearReleased": "1995",
+        "totalTracks": "12",
+        "runTime": "63:49",
         "description": "--",
         "trackList": [
             {
@@ -147,6 +151,8 @@
         "cover": "images/RDJA.jpg",
         "aTitle": "Richard D. James Album",
         "yearReleased": "1996",
+        "totalTracks": "10",
+        "runTime": "32:52",
         "description": "---",
         "trackList": [
             {
@@ -206,6 +212,8 @@
         "cover": "images/SYRO.jpg",
         "aTitle": "Syro",
         "yearReleased": "2017",
+        "totalTracks": "12",
+        "runTime": "64:31",
         "description": "----",
         "trackList": [
             {
