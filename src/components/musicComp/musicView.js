@@ -19,12 +19,16 @@ export default function MusicView() {
 
   return (
   <div>
-    <TrackListing
-      selectedAl = {selectedAl}
-    />
-    <DescriptionView 
-      albums = {albums}
-    />
+    <div className="musicCol">
+      <TrackListing
+        selectedAl = {selectedAl}
+      />
+      <div className="descBox">
+        <DescriptionView 
+          albums = {albums}
+        />
+      </div>
+    </div>
     <div className="albumChoice">
       <AlbumView 
         albums={albums}

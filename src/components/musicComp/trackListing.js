@@ -32,12 +32,12 @@ function renderRow(props) {
 export default function TrackListing(){
   return (
   <Box
-    sx={{height: 400, maxWidth: 200, bgcolor: '#dedede' }}
+    sx={{height: 400, maxWidth: 250, bgcolor: '#dedede' }}
   >
   <FixedSizeList
     className="list" 
     height={400}
-    width={200}
+    width={250}
     itemSize={46}
     itemCount={200}
     overscanCount={5}

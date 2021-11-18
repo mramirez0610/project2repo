@@ -1,4 +1,9 @@
 .albumChoice{
+    /*
+    you'll eventually have to change this percent when you 
+    introduce the banner component
+    */
+    padding-top: 20%;
     display: flex;
     justify-content: center;
 }
@@ -9,12 +14,14 @@
     bottom: 0;
 }
 
-
-
-/*
 .musicCol{
-    display: inline-grid;
-    grid-template-columns: repeat(2, 1fr);
+    display: flex;
+    justify-content: space-evenly;
 }
 
-*/
+.descBox{
+    border: thick double #000;
+    width: 30%;
+}
+
+
