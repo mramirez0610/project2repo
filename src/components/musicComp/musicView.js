@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import AlbumView from "./albumView";
-import TrackListing from "./trackListing"
+import TrackListing from "../listComp/trackListing"
 import DescriptionView from "./descView";
-import HeaderView from "./headerComp/albumBanner";
+import HeaderView from "../headerComp/albumBanner";
 import "./style.css"
 
 export default function MusicView() {
