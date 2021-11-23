@@ -7,7 +7,7 @@ export default function AlbumView(props){
     */
     let albumList = props.albums.map((album) => (
         <div
-            className = "img"
+            className = "previewImg"
             key={album.id}
             onClick={() =>{
                 props.onSelect(album.id)

@@ -1,9 +1,9 @@
-import React, { useState, useEffect, Component } from "react";
+import React, { useState, useEffect } from "react";
 import AlbumView from "./albumView";
 import TrackListing from "./trackListing"
 import DescriptionView from "./descView";
 import HeaderView from "./headerComp/albumBanner";
-import "./playerStyle.css"
+import "./style.css"
 
 export default function MusicView() {
   const [albums, setAlbums] = useState([]);
@@ -19,12 +19,14 @@ export default function MusicView() {
   }, []);
 
   return (
-  <div>
-    <div >
+  <div className="main">
+
+    <div className = "actualHeader">
       <HeaderView 
         selectedAl = {selectedAl}
       />
     </div>
+
     <div className="musicCol">
       <div>
         <b><p>tracklist :</p></b>
@@ -38,6 +40,7 @@ export default function MusicView() {
         />
       </div>
     </div>
+
     <div className="albumChoice">
       <AlbumView 
         albums={albums}
@@ -46,6 +49,7 @@ export default function MusicView() {
         }}
       />
     </div>
+
   </div>
   );
 
