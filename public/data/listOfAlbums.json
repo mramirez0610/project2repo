@@ -1,90 +1,90 @@
 [
     {
         "id":"1",
-        "cover": "images/SAW.png",
+        "cover": "images/SAW.jpg",
         "aTitle": "Selected Ambient Works 85-92",
         "yearReleased": "1992",
         "totalTracks": "13",
         "runTime": "74:40",
-        "description": "Selected Ambient Works 85-92 is Aphex Twin's (Richard D. James) debut studio album.",
+        "description": "Selected Ambient Works 85-92 is Aphex Twin's (Richard D. James) debut studio album. Believed to have been started when he was only 14 and finished when he was 29, SAW 85-92 was Richard’s opportunity to break into the electronic scene.",
         "trackList": [
             {
                 "songId": "0",
                 "songTitle": "Xtal",
                 "songLength" : "4:54",
-                "url" : ""
+                "url" : "/music/SAW85-92/Xtal.m4a"
             },
             {
                 "songId": "1",
                 "songTitle": "Tha",
                 "songLength" : "9:06",
-                "url" : ""
+                "url" : "/music/SAW85-92/Tha.m4a"
             },
             {
                 "songId": "2",
                 "songTitle": "PulseWidth",
                 "songLength" : "3:46",
-                "url" : ""
+                "url" : "/music/SAW85-92/Pulsewidth.m4a"
             },
             {
                 "songId": "3",
                 "songTitle": "Ageispolis",
                 "songLength" : "5:23",
-                "url" : ""
+                "url" : "/music/SAW85-92/Ageispolis"
             },
             {
                 "songId": "4",
                 "songTitle": "i",
                 "songLength" : "1:17",
-                "url" : ""
+                "url" : "/music/SAW85-92/I.m4a"
             },
             {
                 "songId": "5",
                 "songTitle": "Green Calx",
                 "songLength" : "6:05",
-                "url" : ""
+                "url" : "/music/SAW85-92/Green Calx.m4a"
             },
             {
                 "songId": "6",
                 "songTitle": "Heliosphan",
                 "songLength" : "4:51",
-                "url" : ""
+                "url" : "/music/SAW85-92/Heliosphan.m4a"
             },
             {
                 "songId": "7",
                 "songTitle": "We Are The Music Makers",
                 "songLength" : "7:43",
-                "url" : ""
+                "url" : "/music/SAW85-92/We Are The Music Makers.m4a"
             },
             {
                 "songId": "8",
                 "songTitle": "Schottkey 7th Path",
                 "songLength" : "5:08",
-                "url" : ""
+                "url" : "/music/SAW85-92/Schottkey 7th Path.m4a"
             },
             {
                 "songId": "9",
                 "songTitle": "Ptolemy",
                 "songLength" : "7:10",
-                "url" : ""
+                "url" : "/music/SAW85-92/Ptolemy.m4a"
             },
             {
                 "songId": "10",
                 "songTitle": "Hedphelym",
                 "songLength" : "6:00",
-                "url" : ""
+                "url" : "/music/SAW85-92/Hedphelym.m4a"
             },
             {
                 "songId": "11",
                 "songTitle": "Delphium",
                 "songLength" : "5:26",
-                "url" : ""
+                "url" : "/music/SAW85-92/Delphium.m4a"
             },
             {
                 "songId": "12",
                 "songTitle": "Actium",
                 "songLength" : "7:32",
-                "url" : ""
+                "url" : "/music/SAW85-92/Actium.m4a"
             }
         ]
     },
@@ -101,73 +101,73 @@
                 "songId": "0",
                 "songTitle": "Acrid Avid Jam Shred",
                 "songLength" : "7:38",
-                "url" : ""
+                "url" : "/music/ICBYD/Acrid Avid Jam Shred.m4a"
             },
             {
                 "songId": "1",
                 "songTitle": "The Waxen Pith",
                 "songLength" : "4:50",
-                "url" : ""
+                "url" : "/music/ICBYD/The Waxen Pith.m4a"
             },
             {
                 "songId": "2",
                 "songTitle": "Wax The Nip",
                 "songLength" : "4:19",
-                "url" : ""
+                "url" : "/music/ICBYD/Wax the Nip.m4a"
             },
             {
                 "songId": "3",
                 "songTitle": "Icct Hedral",
                 "songLength" : "6:07",
-                "url" : ""
+                "url" : "/music/ICBYD/Icct Hedral (Edit).m4a"
             },
             {
                 "songId": "4",
                 "songTitle": "Ventolin",
                 "songLength" : "4:29",
-                "url" : ""
+                "url" : "/music/ICBYD/Ventolin (Video Version).m4a"
             },
             {
                 "songId": "5",
                 "songTitle": "Come On You Slags!",
                 "songLength" : "5:45",
-                "url" : ""
+                "url" : "/music/ICBYD/Come On You Slags!.m4a"
             },
             {
                 "songId": "6",
                 "songTitle": "Start as You Mean to Go On",
                 "songLength" : "6:05",
-                "url" : ""
+                "url" : "/music/ICBYD/Start as You Mean to Go On.m4a"
             },
             {
                 "songId": "7",
                 "songTitle": "Wet Tip Hen Ax",
                 "songLength" : "5:17",
-                "url" : ""
+                "url" : "/music/ICBYD/Wet Tip Hen Ax.m4a"
             },
             {
                 "songId": "8",
                 "songTitle": "Mookid",
                 "songLength" : "3:51",
-                "url" : ""
+                "url" : "/music/ICBYD/Mookid.m4a"
             },
             {
                 "songId": "9",
                 "songTitle": "Alberto Balsalm",
                 "songLength" : "5:11",
-                "url" : ""
+                "url" : "/music/ICBYD/Alberto Balsalm.m4a"
             },
             {
                 "songId": "10",
                 "songTitle": "Cow Cud Is a Twin",
                 "songLength" : "5:34",
-                "url" : ""
+                "url" : "/music/ICBYD/Cow Cud Is a Twin.m4a"
             },
             {
                 "songId": "11",
                 "songTitle": "Next Heap With",
                 "songLength" : "4:43",
-                "url" : ""
+                "url" : "/music/ICBYD/Next Heap With.m4a"
             }
         ] 
     },
@@ -184,7 +184,7 @@
                 "songId": "0",
                 "songTitle": "4",
                 "songLength" : "3:37",
-                "url" : ""
+                "url" : "/music/RDJA/"
             },
             {
                 "songId": "1",
@@ -244,7 +244,7 @@
     },
     {
         "id":"4",
-        "cover": "images/SYRO.jpg",
+        "cover": "images/SYRO.png",
         "aTitle": "Syro",
         "yearReleased": "2017",
         "totalTracks": "12",
