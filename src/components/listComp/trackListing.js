@@ -59,12 +59,12 @@ export default function TrackListing(props){
  
   return (
   <Box
-    sx={{height: 400, maxWidth: 250, bgcolor: '#dedede' }}
+    sx={{height: 400, maxWidth: 350, bgcolor: '#dedede' }}
   >
   <FixedSizeList
     className="list" 
     height={400}
-    width={250}
+    width={350}
     itemSize={46}
     itemCount={trackList.length}
     overscanCount={5}
