@@ -5,53 +5,72 @@ import DescriptionView from "./descView";
 import HeaderView from "../headerComp/albumBanner";
 import "./style.css"
 
+// jumps up so high that i comicallay crash my head through the ceiling
 export default function MusicView() {
+  const [error, setError] = useState(null);
+  const [isLoaded, setIsLoaded] = useState(false);
   const [albums, setAlbums] = useState([]);
-  const [selectedAl, setSelectedAl] = useState({})
-
+  const [selectedAl, setSelectedAl] = useState([])
+  
   useEffect(() => {
     fetch("data/listOfAlbums.json")
       .then((res) => res.json())
       .then((data) => {
         //assigns our data from json into an actual variable
-        setAlbums(data); 
-      });
+        setAlbums(data);  
+        setSelectedAl(data[0]);
+        setIsLoaded(true);
+      },
+      (error) => {
+        setIsLoaded(true);
+        setError(error);
+      }
+      );
   }, []);
 
-  return (
-  <div className="main">
-
-    <div className = "actualHeader">
-      <HeaderView 
-        selectedAl = {selectedAl}
-      />
-    </div>
-
-    <div className="musicCol">
-      <div>
-        <b><p>tracklist :</p></b>
-        <TrackListing
-          selectedAl = {selectedAl}
-        />
+  if(error) {
+    return <div className="main">error</div>
+  } 
+  else if(!isLoaded) {
+    return <div className="main"></div>
+  } else {
+    return (
+      <div className="main">
+    
+        <div className = "actualHeader">
+          <HeaderView 
+            selectedAl = {selectedAl}
+          />
+        </div>
+    
+        <div className="musicCol">
+          <div>
+            <b><p>tracklist :</p></b>
+            <TrackListing
+              isLoaded = {isLoaded}
+              selectedAl = {selectedAl}
+            />
+          </div>
+          <div className="descBox">
+            <DescriptionView 
+              selectedAl = {selectedAl}
+            />
+          </div>
+        </div>
+    
+        <div className="albumChoice">
+          <AlbumView 
+            albums={albums}
+            onSelect={(id) => {
+              albumSelected(id);
+            }}
+          />
+        </div>
+    
       </div>
-      <div className="descBox">
-        <DescriptionView 
-          selectedAl = {selectedAl}
-        />
-      </div>
-    </div>
-
-    <div className="albumChoice">
-      <AlbumView 
-        albums={albums}
-        onSelect={(id) => {
-          albumSelected(id);
-        }}
-      />
-    </div>
-
-  </div>
-  );
+    );
+  }
+  
 
   function albumSelected(id){
     const foundAlbum = albums.find((album) => album.id === id);

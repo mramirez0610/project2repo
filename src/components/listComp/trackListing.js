@@ -6,15 +6,27 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import { FixedSizeList } from 'react-window';
 
+
 export default function TrackListing(props){
 
-  const RowInfoTwo = ({index}) => (
-    <div>
-      <div className="track">
-          <p>{props.selectedAl.trackList[index]}</p>
-      </div>
+  const trackList = props.selectedAl.trackList;
+  console.log(trackList.length);
+  
+  const RowInfoThree = ({style, index}) => (
+    <div style={style} key={index}>
+      <p>{trackList[index]}</p>  
     </div>
-  )
+  );
+
+  for(let i = 0; i < trackList.length; i++){
+    console.log(trackList[i])
+    var RowInfoTwo = ({index, style}) => (
+      <div style={style} key={index}>
+        <p>{props.selectedAl.trackList[i].songTitle}</p>  
+      </div>
+    );
+  }
+
   const Row = ({index , style}) => (
     <ListItem 
       style={style} 
@@ -23,8 +35,17 @@ export default function TrackListing(props){
       disablePadding
     >
       <ListItemButton>
-        <ListItemText primary={``} />
+        <ListItemText primary={`${RowInfoThree}`} />
         {/* 
+          --trouble here. i am so so close. for some reason i can't 
+          get this to go through every track list. i am soooooooooooooo 
+          close to figuring this out
+
+          --also, length only works after i've saved the file, but when i
+          reload, there's an error. how funny
+
+          im assuming its because it's trying to read 0
+
           <RowInfo 
             track={props.selectedAl.trackList.songTitle} 
           />
@@ -35,6 +56,7 @@ export default function TrackListing(props){
     </ListItem>
   );
 
+ 
   return (
   <Box
     sx={{height: 400, maxWidth: 250, bgcolor: '#dedede' }}
@@ -44,12 +66,13 @@ export default function TrackListing(props){
     height={400}
     width={250}
     itemSize={46}
-    itemCount={props.selectedAl.trackList.length}
+    itemCount={trackList.length}
     overscanCount={5}
   >
     {Row}
   </FixedSizeList>
   </Box>
   );
+  
 }
 

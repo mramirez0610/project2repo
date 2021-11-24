@@ -7,7 +7,8 @@
     height: 900px;
     background-color: #bababa;
     border-radius: 60px;
-    font-family: 'M PLUS 1 CODE', sans-serif;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 500;
 }
   
 .albumChoice{
@@ -38,6 +39,7 @@
     height: 430px;
     background-color: #dedede;
     /* text attributes */
+    
     text-align: left;
     padding-left: 4px;
     word-wrap: break-word;
@@ -48,7 +50,7 @@
     position: relative;
     right: 40px;
     display: inline-grid;
-    grid-template-columns: 1fr 500px;
+    grid-template-columns: 1fr 600px;
 }
 
 .generalInfo{
