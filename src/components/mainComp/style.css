@@ -8,6 +8,7 @@
     src: url(../otherFiles/conthrax-sb.otf);
 }
 
+
 .main {
     /*
     font-family: sans-serif;
@@ -38,6 +39,7 @@
     border: thick double #000;
     width: 40%;
     height: 430px;
+    /* background aphex logo */
     background: no-repeat url("../otherFiles/logo.png") center;
     background-size: 600px;
     background-color: #dedede;
@@ -49,10 +51,11 @@
 
 .actualHeader{
     border-radius: 60px;
+    font-family: 'conthrax';
+    /* background aphex banner */
     background: no-repeat url("../otherFiles/banner.png") top;
     background-size: 700px;
     background-color: #dbdbdb;
-    font-family: 'conthrax';
 }
 
 .bannerArea{

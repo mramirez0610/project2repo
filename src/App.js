@@ -1,5 +1,5 @@
 import React from "react";
-import MusicView from "./components/musicComp/musicView";
+import MusicView from "./components/mainComp/musicView";
 
 export default function App() {
   return (  

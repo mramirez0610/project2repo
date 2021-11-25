@@ -1,9 +1,10 @@
 import React, { useState, useEffect } from "react";
-import AlbumView from "./albumView";
+import AlbumView from "../dataComp/albumView";
 import TrackListing from "../listComp/trackListing"
-import DescriptionView from "./descView";
+import DescriptionView from "../dataComp/descView";
 import HeaderView from "../headerComp/albumBanner";
 import "./style.css"
+import BackgroundView from "../backgroundAnimation/backgroundView";
 
 // jumps up so high that i comicallay crash my head through the ceiling
 export default function MusicView() {
@@ -35,35 +36,40 @@ export default function MusicView() {
     return <div className="main"></div>
   } else {
     return (
-      <div className="main">
-        <div className = "actualHeader">
-          <HeaderView 
+      <div>
+        <BackgroundView 
             selectedAl = {selectedAl}
           />
-        </div>
-        <div className="musicCol">
-          <div>
-            <TrackListing
-              isLoaded = {isLoaded}
+        <div className="main">
+          
+          <div className = "actualHeader">
+            <HeaderView 
               selectedAl = {selectedAl}
             />
           </div>
-          <div className="descBox">
-            <DescriptionView 
-              selectedAl = {selectedAl}
+          <div className="musicCol">
+            <div>
+              <TrackListing
+                isLoaded = {isLoaded}
+                selectedAl = {selectedAl}
+              />
+            </div>
+            <div className="descBox">
+              <DescriptionView 
+                selectedAl = {selectedAl}
+              />
+            </div>
+          </div>
+      
+          <div className="albumChoice">
+            <AlbumView 
+              albums={albums}
+              onSelect={(id) => {
+                albumSelected(id);
+              }}
             />
           </div>
         </div>
-    
-        <div className="albumChoice">
-          <AlbumView 
-            albums={albums}
-            onSelect={(id) => {
-              albumSelected(id);
-            }}
-          />
-        </div>
-    
       </div>
     );
   }

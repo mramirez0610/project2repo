@@ -4,9 +4,16 @@ import ListItem from '@mui/material/ListItem';
 import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import { FixedSizeList } from 'react-window';
+import { createTheme, ThemeProvider } from "@mui/material/styles";
 
 export default function TrackListing(props){
   const trackList = props.selectedAl.trackList;
+
+  const theme = createTheme({
+    typography: {
+      fontFamily: 'Source Code Pro'
+    }
+  })
 
   const Row = ({index , style}) => (
     <ListItem 
@@ -17,7 +24,6 @@ export default function TrackListing(props){
     >
       <ListItemButton>
         <ListItemText 
-          className="please" 
           primary={`${trackList[index].songTitle}`} 
           secondary={`${trackList[index].songLength}`}
         />
@@ -29,28 +35,29 @@ export default function TrackListing(props){
   return (
   <div>
     <b><p>tracklist :</p></b>
-    
-    <Box
-      sx={{
-        height: 400, 
-        maxWidth: 350, 
-        bgcolor: '#dedede',
-        ":hover" : {
-          boxShadow: 6, 
-        }
-      }}
-    >
-    <FixedSizeList
-      className="list" 
-      height={400}
-      width={350}
-      itemSize={60}
-      itemCount={trackList.length}
-      overscanCount={7}
-    >
-      {Row}
-    </FixedSizeList>
-    </Box>
+    <ThemeProvider theme={theme}>
+      <Box
+        sx={{
+          height: 400, 
+          maxWidth: 350, 
+          bgcolor: '#dedede',
+          ":hover" : {
+            boxShadow: 6, 
+          }
+        }}
+      >
+      <FixedSizeList
+        className="list" 
+        height={400}
+        width={350}
+        itemSize={60}
+        itemCount={trackList.length}
+        overscanCount={7}
+      >
+        {Row}
+      </FixedSizeList>
+      </Box>
+    </ThemeProvider>
   </div>
   );
 }
