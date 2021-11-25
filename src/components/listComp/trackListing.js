@@ -5,47 +5,53 @@ import ListItemButton from '@mui/material/ListItemButton';
 import ListItemText from '@mui/material/ListItemText';
 import { FixedSizeList } from 'react-window';
 
-
 export default function TrackListing(props){
   const trackList = props.selectedAl.trackList;
 
   const Row = ({index , style}) => (
     <ListItem 
-      style={style} 
+      style={style}
       key={index} 
       component="div" 
       disablePadding
     >
       <ListItemButton>
-        <ListItemText primary={trackList[index].songTitle} />
-        {/* 
-          --trouble here. i am so so close. for some reason i can't 
-          get this to go through every track list. i am soooooooooooooo 
-          close to figuring this out
-          
-          im assuming its because it's trying to read 0
-        */}
+        <ListItemText 
+          className="please" 
+          primary={`${trackList[index].songTitle}`} 
+          secondary={`${trackList[index].songLength}`}
+        />
       </ListItemButton>
     </ListItem>
   );
 
  
   return (
-  <Box
-    sx={{height: 400, maxWidth: 350, bgcolor: '#dedede' }}
-  >
-  <FixedSizeList
-    className="list" 
-    height={400}
-    width={350}
-    itemSize={45}
-    itemCount={trackList.length}
-    overscanCount={5}
-  >
-    {Row}
-  </FixedSizeList>
-  </Box>
+  <div>
+    <b><p>tracklist :</p></b>
+    
+    <Box
+      sx={{
+        height: 400, 
+        maxWidth: 350, 
+        bgcolor: '#dedede',
+        ":hover" : {
+          boxShadow: 6, 
+        }
+      }}
+    >
+    <FixedSizeList
+      className="list" 
+      height={400}
+      width={350}
+      itemSize={60}
+      itemCount={trackList.length}
+      overscanCount={7}
+    >
+      {Row}
+    </FixedSizeList>
+    </Box>
+  </div>
   );
-  
 }
 

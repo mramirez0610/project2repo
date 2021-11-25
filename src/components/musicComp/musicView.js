@@ -36,16 +36,13 @@ export default function MusicView() {
   } else {
     return (
       <div className="main">
-    
         <div className = "actualHeader">
           <HeaderView 
             selectedAl = {selectedAl}
           />
         </div>
-    
         <div className="musicCol">
           <div>
-            <b><p>tracklist :</p></b>
             <TrackListing
               isLoaded = {isLoaded}
               selectedAl = {selectedAl}
