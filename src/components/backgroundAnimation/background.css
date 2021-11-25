@@ -1,4 +1,4 @@
-.test{
+.console{
     position: absolute;
     z-index: -1;
     font-size: 16px;
@@ -6,4 +6,5 @@
     color: white;
     padding-left: 4%;
     overflow: hidden;
+    opacity: 35%;
 }

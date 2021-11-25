@@ -39,9 +39,9 @@ export default function MusicView() {
       <div>
         <BackgroundView 
             selectedAl = {selectedAl}
-          />
-        <div className="main">
-          
+        />
+
+        <div className="main">  
           <div className = "actualHeader">
             <HeaderView 
               selectedAl = {selectedAl}
@@ -70,6 +70,7 @@ export default function MusicView() {
             />
           </div>
         </div>
+        
       </div>
     );
   }
