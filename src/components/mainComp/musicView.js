@@ -3,8 +3,8 @@ import AlbumView from "../dataComp/albumView";
 import TrackListing from "../listComp/trackListing"
 import DescriptionView from "../dataComp/descView";
 import HeaderView from "../headerComp/albumBanner";
-import "./style.css"
 import BackgroundView from "../backgroundAnimation/backgroundView";
+import "./style.css"
 
 // jumps up so high that i comicallay crash my head through the ceiling
 export default function MusicView() {
@@ -38,7 +38,8 @@ export default function MusicView() {
     return (
       <div>
         <BackgroundView 
-            selectedAl = {selectedAl}
+          selectedAl = {selectedAl}
+          albums = {albums}
         />
 
         <div className="main">  
@@ -70,15 +71,13 @@ export default function MusicView() {
             />
           </div>
         </div>
-        
+
       </div>
     );
   }
   
-
   function albumSelected(id){
     const foundAlbum = albums.find((album) => album.id === id);
-
     setSelectedAl(foundAlbum);
   }
 }
