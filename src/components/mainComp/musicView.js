@@ -48,6 +48,7 @@ export default function MusicView() {
               selectedAl = {selectedAl}
             />
           </div>
+
           <div className="musicCol">
             <div>
               <TrackListing
@@ -55,6 +56,7 @@ export default function MusicView() {
                 selectedAl = {selectedAl}
               />
             </div>
+            
             <div className="descBox">
               <DescriptionView 
                 selectedAl = {selectedAl}
