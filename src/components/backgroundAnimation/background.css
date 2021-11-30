@@ -1,11 +1,12 @@
 .wrapper{
     position: absolute;
     z-index: -1;
-    font-size: 16px;
+    font-size: 15px;
     font-family: 'Source Code Pro';
     line-height: 22px;
     color: white;
-    padding-left: 1%;
-    opacity: 20%;
+    padding-left: 6px;
+    opacity: 18%;
+    word-break: break-all;
     position: fixed;
 }

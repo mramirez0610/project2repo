@@ -14,10 +14,11 @@
     */
     margin: auto;
     margin-top: 2px;
+    margin-bottom: 20px;
     width: 900px;
     height: 900px;
     background-color: #bababa;
-    border-radius: 60px;
+    border-radius: 80px;
     font-family: 'Source Code Pro', monospace;
     font-weight: 500;
 }
@@ -49,7 +50,7 @@
 }
 
 .actualHeader{
-    border-radius: 60px;
+    border-radius: 80px;
     font-family: 'conthrax';
     /* background aphex banner */
     background: no-repeat url("../otherFiles/banner.png") top;

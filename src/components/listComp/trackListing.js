@@ -42,7 +42,7 @@ export default function TrackListing(props){
           maxWidth: 350, 
           bgcolor: '#dedede',
           ":hover" : {
-            boxShadow: 6, 
+            boxShadow: 2, 
           }
         }}
       >

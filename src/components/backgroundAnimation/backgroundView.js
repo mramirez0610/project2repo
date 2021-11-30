@@ -11,10 +11,11 @@ export default function BackgroundView(props){
         fullType.push(f, s);
     }
 
-    return <div className="console">
+    return (
+    <div className="console">
         <Typewriter 
             options={{
-                delay: .02,
+                delay: .2,
                 deleteSpeed: 2,
                 strings: `${fullType}`,
                 autoStart: true,
@@ -23,4 +24,5 @@ export default function BackgroundView(props){
             }}
         />
     </div>
+    )
 }
