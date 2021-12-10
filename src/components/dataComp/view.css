@@ -1,6 +1,6 @@
 .albumChoice{
-    position: fixed;
-    top: 300px;
+    position: absolute;
+    top: 295px;
     margin-left: 18.5%;
 
     display: flex;
