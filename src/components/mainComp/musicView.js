@@ -4,15 +4,19 @@ import TrackListing from "../listComp/trackListing"
 import DescriptionView from "../dataComp/descView";
 import HeaderView from "../headerComp/albumBanner";
 import BackgroundView from "../backgroundAnimation/backgroundView";
+import MusicPlayer from "../playerComp/musicPlayer";
 import "./style.css"
+import "./weird.css"
 
 // jumps up so high that i comicallay crash my head through the ceiling
 export default function MusicView() {
   const [error, setError] = useState(null);
   const [isLoaded, setIsLoaded] = useState(false);
-  const [albums, setAlbums] = useState([]);
-  const [selectedAl, setSelectedAl] = useState([])
-  
+  const [albums, setAlbums] = useState([]);  
+  const [selectedSong, setSelectedSong] = useState({});
+  const [selectedAl, setSelectedAl] = useState([]);
+  const selectedTracklist = selectedAl.trackList;
+
   useEffect(() => {
     fetch("data/listOfAlbums.json")
       .then((res) => res.json())
@@ -42,6 +46,16 @@ export default function MusicView() {
           albums = {albums}
         />
 
+        <div className="albumChoice area">
+          <b><u><p>album choice:</p></u></b>
+          <AlbumView 
+            albums={albums}
+            onSelect={(id) => {
+              albumSelected(id);
+            }}
+          />
+        </div>
+
         <div className="main">  
           <div className = "actualHeader">
             <HeaderView 
@@ -50,30 +64,20 @@ export default function MusicView() {
           </div>
 
           <div className="musicCol">
-            <div>
-              <TrackListing
-                isLoaded = {isLoaded}
-                selectedAl = {selectedAl}
-              />
-            </div>
-            
-            <div className="descBox">
-              <DescriptionView 
-                selectedAl = {selectedAl}
-              />
-            </div>
-          </div>
-      
-          <div className="albumChoice">
-            <AlbumView 
-              albums={albums}
-              onSelect={(id) => {
-                albumSelected(id);
-              }}
+            <TrackListing
+              isLoaded = {isLoaded}
+              selectedAl = {selectedAl}
+              songSelected = {songSelected}
+            /> 
+            <DescriptionView 
+              selectedAl = {selectedAl}
             />
           </div>
-        </div>
 
+          <MusicPlayer
+            selectedSong = {selectedSong}
+          />
+        </div>
       </div>
     );
   }
@@ -81,5 +85,10 @@ export default function MusicView() {
   function albumSelected(id){
     const foundAlbum = albums.find((album) => album.id === id);
     setSelectedAl(foundAlbum);
+  }
+
+  function songSelected(id){
+    const foundSong = selectedTracklist.find((tracklist) => tracklist.songId === id);
+    setSelectedSong(foundSong);
   }
 }

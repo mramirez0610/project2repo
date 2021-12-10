@@ -1,0 +1,36 @@
+.albumChoice{
+    position: absolute;
+    margin: 14.5% 0 0 18.1%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 14px;
+}
+
+.area{
+    text-align: center;
+    width: 8%;
+    background-color: #bababa;
+    border-radius: 20px 0 0 20px;
+}
+
+.previewImg{    
+    margin: 10px;
+    /* box-shadow: .5px .5px .5px .5px rgba(0, 0, 0, .2); */
+    transition: all 0.15s ease-in-out;
+}
+
+.previewImg::after {
+    opacity: 0;
+    transition: opacity 0.05s ease-in-out;
+}
+
+.previewImg:hover{
+    transform: scale(1.1, 1.1);
+    box-shadow: 3px 3px 3px 3px rgba(0,0,0,0.2);
+}
+
+.previewImg::after{
+    opacity: 1;
+}

@@ -1,4 +1,5 @@
 import React from "react";
+import "./view.css"
 
 export default function AlbumView(props){
     /* 
@@ -15,17 +16,6 @@ export default function AlbumView(props){
         >
             <img width="100" height="100" src={album.cover}/>
         </div>
-        //
-        /* what is the advantage of using map over a regular div?
-        <map
-            key={album.id}
-            onClick={() =>{
-                props.onSelect(album.id)
-            }}
-        >
-            <img width="100" height="100" src={album.cover}/>
-        </map>
-        */
     ));
     
     return <div>{AlbumList}</div>
