@@ -1,5 +1,5 @@
 .albumChoice{
-    position: absolute;
+    position: fixed;
     top: 295px;
     margin-left: 18.5%;
 
@@ -9,6 +9,9 @@
     font-size: 14px;
 }
 
+.test{
+    position: absolute;
+}
 .area{
     text-align: center;
     width: 8%;
