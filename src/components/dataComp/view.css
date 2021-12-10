@@ -1,7 +1,6 @@
 .albumChoice{
     position: absolute;
     top: 295px;
-    
     display: flex;
     flex-direction: column;
     font-family: 'Source Code Pro', monospace;
