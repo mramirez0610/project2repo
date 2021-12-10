@@ -45,6 +45,8 @@ export default function MusicView() {
           selectedAl = {selectedAl}
           albums = {albums}
         />
+      <div className="wee">
+        
 
         <div className="albumChoice area">
           <b><u><p>album choice:</p></u></b>
@@ -78,6 +80,7 @@ export default function MusicView() {
             selectedSong = {selectedSong}
           />
         </div>
+      </div>
       </div>
     );
   }
