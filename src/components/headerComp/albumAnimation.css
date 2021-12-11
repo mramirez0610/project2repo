@@ -1,0 +1,21 @@
+.selectedAl {
+    border: 4px solid #000;
+}
+
+.selectedAl-enter {
+    opacity: 0;
+}
+
+.selectedAl-enter-active {
+    opacity: 1;
+    transition: opacity 6000ms;
+}
+
+.selectedAl-exit {
+    opacity: 1;
+}
+
+.selectedAl-exit-active {
+    opacity: 0;
+    transition: opacity 6000ms;
+}

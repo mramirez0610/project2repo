@@ -1,6 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import "./background.css"
+import "./background.css";
 
 export default function BackgroundView(props){
     const fullType = [];

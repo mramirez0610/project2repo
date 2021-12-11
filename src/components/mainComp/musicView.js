@@ -77,6 +77,7 @@ export default function MusicView() {
           </div>
 
           <MusicPlayer
+            selectedAl = {selectedAl}
             selectedSong = {selectedSong}
           />
         </div>
