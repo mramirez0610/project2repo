@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/project2repo/static/css/main.4bab22bc.chunk.css",
+    "main.js": "/project2repo/static/js/main.3bb6e073.chunk.js",
+    "main.js.map": "/project2repo/static/js/main.3bb6e073.chunk.js.map",
+    "runtime-main.js": "/project2repo/static/js/runtime-main.1d7c2bce.js",
+    "runtime-main.js.map": "/project2repo/static/js/runtime-main.1d7c2bce.js.map",
+    "static/js/2.10578e5e.chunk.js": "/project2repo/static/js/2.10578e5e.chunk.js",
+    "static/js/2.10578e5e.chunk.js.map": "/project2repo/static/js/2.10578e5e.chunk.js.map",
+    "static/js/3.53675796.chunk.js": "/project2repo/static/js/3.53675796.chunk.js",
+    "static/js/3.53675796.chunk.js.map": "/project2repo/static/js/3.53675796.chunk.js.map",
+    "index.html": "/project2repo/index.html",
+    "static/css/main.4bab22bc.chunk.css.map": "/project2repo/static/css/main.4bab22bc.chunk.css.map",
+    "static/js/2.10578e5e.chunk.js.LICENSE.txt": "/project2repo/static/js/2.10578e5e.chunk.js.LICENSE.txt",
+    "static/media/style.css": "/project2repo/static/media/logo.3217e469.png",
+    "static/media/weird.css": "/project2repo/static/media/nk57-monospace-se-bd.5199860d.otf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1d7c2bce.js",
+    "static/js/2.10578e5e.chunk.js",
+    "static/css/main.4bab22bc.chunk.css",
+    "static/js/main.3bb6e073.chunk.js"
+  ]
+}

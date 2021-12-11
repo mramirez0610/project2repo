@@ -1,0 +1,328 @@
+[
+    {
+        "id":"1",
+        "cover": "images/SAW.jpg",
+        "aTitle": "Selected Ambient Works 85-92",
+        "yearReleased": "1992",
+        "totalTracks": "13",
+        "runTime": "74:40",
+        "description": "\tSelected Ambient Works 85-92 is the debut studio album by Aphex Twin, the pseudonym of British electronic musician Richard D. James. It was released on 9 November 1992 through Apollo Records, a subsidiary of Belgian label R&S Records. The album consists of beat-orientated ambient tracks recorded onto cassette reputedly dating as far back as 1985, when James was thirteen to fourteen years old. \n \n \t An analogue remaster of the album was released in 2006, followed by a digital remaster in 2008. Upon its release, Selected Ambient Works 85-92 received widespread acclaim. James followed up the album in 1994 with the more traditionally ambient Selected Ambient Works Volume II. In 2012, it was named the greatest album of the 1990s by Fact. It entered the UK Dance Albums Chart at number 30 after the release of Aphex Twin's 2014 album Syro.\n \n - From Wikipedia, the free encyclopedia  \n \n \n -- marco's favorite track: delphium ",
+        "trackList": [
+            {
+                "songId": "0",
+                "songTitle": "Xtal",
+                "songLength" : "4:54",
+                "url" : "/music/SAW85-92/Xtal.m4a"
+            },
+            {
+                "songId": "1",
+                "songTitle": "Tha",
+                "songLength" : "9:06",
+                "url" : "/music/SAW85-92/Tha.m4a"
+            },
+            {
+                "songId": "2",
+                "songTitle": "PulseWidth",
+                "songLength" : "3:46",
+                "url" : "/music/SAW85-92/Pulsewidth.m4a"
+            },
+            {
+                "songId": "3",
+                "songTitle": "Ageispolis",
+                "songLength" : "5:23",
+                "url" : "/music/SAW85-92/Ageispolis.m4a"
+            },
+            {
+                "songId": "4",
+                "songTitle": "i",
+                "songLength" : "1:17",
+                "url" : "/music/SAW85-92/I.m4a"
+            },
+            {
+                "songId": "5",
+                "songTitle": "Green Calx",
+                "songLength" : "6:05",
+                "url" : "/music/SAW85-92/Green Calx.m4a"
+            },
+            {
+                "songId": "6",
+                "songTitle": "Heliosphan",
+                "songLength" : "4:51",
+                "url" : "/music/SAW85-92/Heliosphan.m4a"
+            },
+            {
+                "songId": "7",
+                "songTitle": "We Are The Music Makers",
+                "songLength" : "7:43",
+                "url" : "/music/SAW85-92/We Are The Music Makers.m4a"
+            },
+            {
+                "songId": "8",
+                "songTitle": "Schottkey 7th Path",
+                "songLength" : "5:08",
+                "url" : "/music/SAW85-92/Schottkey 7th Path.m4a"
+            },
+            {
+                "songId": "9",
+                "songTitle": "Ptolemy",
+                "songLength" : "7:10",
+                "url" : "/music/SAW85-92/Ptolemy.m4a"
+            },
+            {
+                "songId": "10",
+                "songTitle": "Hedphelym",
+                "songLength" : "6:00",
+                "url" : "/music/SAW85-92/Hedphelym.m4a"
+            },
+            {
+                "songId": "11",
+                "songTitle": "Delphium",
+                "songLength" : "5:26",
+                "url" : "/music/SAW85-92/Delphium.m4a"
+            },
+            {
+                "songId": "12",
+                "songTitle": "Actium",
+                "songLength" : "7:32",
+                "url" : "/music/SAW85-92/Actium.m4a"
+            }
+        ]
+    },
+    {
+        "id":"2",
+        "cover": "images/ICBYD.jpg",
+        "aTitle": "...I Care Because You Do",
+        "yearReleased": "1995",
+        "totalTracks": "12",
+        "runTime": "63:49",
+        "description": "\t...I Care Because You Do is the third studio album by electronic musician Richard D. James under the alias Aphex Twin, released on 24 April 1995 by Warp. Containing material recorded between 1990 and 1994, the album marked James's return to a percussive sound following the largely beatless Selected Ambient Works Volume II (1994), and pairs abrasive rhythms with symphonic and ambient elements. The cover artwork is a self-portrait by James. \n \n \t I Care Because You Do peaked at number 24 on the UK Albums Chart. It was supported by the single and EP release of the track 'Ventolin'. The album received positive reviews, with Entertainment Weekly, Spin, and Rolling Stone commending it as a return to form for James. It garnered comparisons to the work of composer Philip Glass, who later re-recorded the track 'Icct Hedral' for James's 1995 EP Donkey Rhubarb. In 2017, Pitchfork ranked I Care Because You Do the 13th best IDM album of all time. \n \n - From Wikipedia, the free encyclopedia  \n \n \n -- marco's favorite track: alberto balsalm ",
+        "trackList": [
+            {
+                "songId": "0",
+                "songTitle": "Acrid Avid Jam Shred",
+                "songLength" : "7:38",
+                "url" : "/music/ICBYD/Acrid Avid Jam Shred.m4a"
+            },
+            {
+                "songId": "1",
+                "songTitle": "The Waxen Pith",
+                "songLength" : "4:50",
+                "url" : "/music/ICBYD/The Waxen Pith.m4a"
+            },
+            {
+                "songId": "2",
+                "songTitle": "Wax The Nip",
+                "songLength" : "4:19",
+                "url" : "/music/ICBYD/Wax the Nip.m4a"
+            },
+            {
+                "songId": "3",
+                "songTitle": "Icct Hedral",
+                "songLength" : "6:07",
+                "url" : "/music/ICBYD/Icct Hedral (Edit).m4a"
+            },
+            {
+                "songId": "4",
+                "songTitle": "Ventolin",
+                "songLength" : "4:29",
+                "url" : "/music/ICBYD/Ventolin (Video Version).m4a"
+            },
+            {
+                "songId": "5",
+                "songTitle": "Come On You Slags!",
+                "songLength" : "5:45",
+                "url" : "/music/ICBYD/Come On You Slags!.m4a"
+            },
+            {
+                "songId": "6",
+                "songTitle": "Start as You Mean to Go On",
+                "songLength" : "6:05",
+                "url" : "/music/ICBYD/Start as You Mean to Go On.m4a"
+            },
+            {
+                "songId": "7",
+                "songTitle": "Wet Tip Hen Ax",
+                "songLength" : "5:17",
+                "url" : "/music/ICBYD/Wet Tip Hen Ax.m4a"
+            },
+            {
+                "songId": "8",
+                "songTitle": "Mookid",
+                "songLength" : "3:51",
+                "url" : "/music/ICBYD/Mookid.m4a"
+            },
+            {
+                "songId": "9",
+                "songTitle": "Alberto Balsalm",
+                "songLength" : "5:11",
+                "url" : "/music/ICBYD/Alberto Balsalm.m4a"
+            },
+            {
+                "songId": "10",
+                "songTitle": "Cow Cud Is a Twin",
+                "songLength" : "5:34",
+                "url" : "/music/ICBYD/Cow Cud Is a Twin.m4a"
+            },
+            {
+                "songId": "11",
+                "songTitle": "Next Heap With",
+                "songLength" : "4:43",
+                "url" : "/music/ICBYD/Next Heap With.m4a"
+            }
+        ] 
+    },
+    {
+        "id":"3",
+        "cover": "images/RDJA.jpg",
+        "aTitle": "Richard D. James Album",
+        "yearReleased": "1996",
+        "totalTracks": "10",
+        "runTime": "32:52",
+        "description": "\t Richard D. James Album is the eponymous fourth studio album by British electronic musician Richard D. James, under his pseudonym Aphex Twin. In the United Kingdom, the album was released on 4 November 1996 through Warp. In the United States, it was released on 28 January 1997 by Sire Records, with the Girl/Boy EP included as bonus tracks. A reissue on vinyl was released on 18 September 2012. \n \n \t Richard D. James Album was composed by James on his Macintosh computer, and took longer to complete than his previous efforts. The album features faster breakbeats and intricate drum programming which draw influence from jungle and drum and bass, combined with lush string arrangements, unstable time signatures, and slow ambient melodies reminiscent of James' earlier work, as well as modulated vocals by James. \n \n \t RDJA was less successful in the United Kingdom than James' two previous albums Selected Ambient Works Volume II (1994) and ...I Care Because You Do (1995). However, the album still charted in the UK, peaking at number 62 on the UK Albums Chart for one week. It also peaked at number 20 in the US Top Heatseekers list, becoming James' first to do so. The album received acclaim from music critics, and NME listed it as the 20th best album of the year. \n \n - From Wikipedia, the free encyclopedia  \n \n \n -- marco's favorite track: - to cure a weakling child",
+        "trackList": [
+            {
+                "songId": "0",
+                "songTitle": "4",
+                "songLength" : "3:37",
+                "url" : "/music/RDJA/4.m4a"
+            },
+            {
+                "songId": "1",
+                "songTitle": "Cornish Acid",
+                "songLength" : "2:14",
+                "url" : "/music/RDJA/Cornish Acid.m4a"
+            },
+            {
+                "songId": "2",
+                "songTitle": "Peek 824545201",
+                "songLength" : "3:05",
+                "url" : "/music/RDJA/Peek 824545201.m4a"
+            },
+            {
+                "songId": "3",
+                "songTitle": "Fingerbib",
+                "songLength" : "3:48",
+                "url" : "/music/RDJA/Fingerbib.m4a"
+            },
+            {
+                "songId": "4",
+                "songTitle": "Carn Marth",
+                "songLength" : "2:33",
+                "url" : "/music/RDJA/Carn Marth.m4a"
+            },
+            {
+                "songId": "5",
+                "songTitle": "To Cure a Weakling Child",
+                "songLength" : "4:03",
+                "url" : "/music/RDJA/To Cure a Weakling Child.m4a"
+            },
+            {
+                "songId": "6",
+                "songTitle": "Goon Gumpas",
+                "songLength" : "2:02",
+                "url" : "/music/RDJA/Goon Gumpas.m4a"
+            },
+            {
+                "songId": "7",
+                "songTitle": "Yellow Calx",
+                "songLength" : "3:04",
+                "url" : "/music/RDJA/Yellow Calx.m4a"
+            },
+            {
+                "songId": "8",
+                "songTitle": "Girl/Boy Song",
+                "songLength" : "4:52",
+                "url" : "/music/RDJA/Girl _ Boy Song.m4a"
+            },
+            {
+                "songId": "9",
+                "songTitle": "Logan Rock Witch",
+                "songLength" : "3:33",
+                "url" : "/music/RDJA/Logan Rock Witch.m4a"
+            }
+        ] 
+    },
+    {
+        "id":"4",
+        "cover": "images/SYRO.png",
+        "aTitle": "Syro",
+        "yearReleased": "2017",
+        "totalTracks": "12",
+        "runTime": "64:31",
+        "description": "\t Syro (/saɪroʊ/) is the sixth studio album by Aphex Twin, the alias of British electronic musician Richard D. James, released on 19 September 2014 on Warp. It was James's first album under the Aphex Twin name since Drukqs (2001). The album was recorded over several years on a wide range of equipment setups. Described by James as 'my pop album, or as poppy as it's going to get', it incorporates styles such as techno, synth-funk, breakbeat, acid house, and jungle, as well as edited vocal samples of James and his family. \n \n \t The artwork features a detailed list of its production and promotional costs. A cryptic viral marketing campaign included an announcement on the dark web and listening events in cities around the world. The album was preceded by the lead single 'minipops 67 [120.2]'. \n \n \t Syro received critical acclaim and placed in several international charts, peaking at number 11 in the US Billboard 200 and number 8 in the UK Albums Chart. It was nominated for the Choice Music Prize and the 2015 Mercury Music Prize,[10] and won the 2015 Grammy Award for Best Dance/Electronic Album. \n \n - From Wikipedia, the free encyclopedia  \n \n \n -- marco's favorite track: CIRCLONT6A",
+        "trackList": [
+            {
+                "songId": "0",
+                "songTitle": "minipops 67 (source field mix)",
+                "songLength" : "4:47",
+                "url" : "/music/SYRO/Minipops 67 [120.2].m4a"
+            },
+            {
+                "songId": "1",
+                "songTitle": "XMAS_EVET10 (thanaton3 mix)",
+                "songLength" : "10:31",
+                "url" : "/music/SYRO/Xmas_evet10 [120].m4a"
+            },
+            {
+                "songId": "2",
+                "songTitle": "produk 29",
+                "songLength" : "5:03",
+                "url" : "/music/SYRO/Produk 29 [101].m4a"
+            },
+            {
+                "songId": "3",
+                "songTitle": "4 bit 9d api+e+6",
+                "songLength" : "4:28",
+                "url" : "/music/SYRO/4 Bit 9D Api+E+6 [126.26].m4a"
+            },
+            {
+                "songId": "4",
+                "songTitle": "180db_",
+                "songLength" : "3:11",
+                "url" : "/music/SYRO/180Db_ [130].m4a"
+            },
+            {
+                "songId": "5",
+                "songTitle": "CIRCLONT6A (syrobonkus mix)",
+                "songLength" : "6:00",
+                "url" : "/music/SYRO/Circlont6a [141.98].m4a"
+            },
+            {
+                "songId": "6",
+                "songTitle": "fz pseudotimestretch+e+3",
+                "songLength" : "0:58",
+                "url" : "/music/SYRO/Fz Pseudotimestretch+E+3 [138.85].m4a"
+            },
+            {
+                "songId": "7",
+                "songTitle": "CIRCLONT14 (shrymoming mix)",
+                "songLength" : "7:21",
+                "url" : "/music/SYRO/Circlont14 [152.97].m4a"
+            },
+            {
+                "songId": "8",
+                "songTitle": "syro u473t8+e (piezoluminescence mix)",
+                "songLength" : "6:32",
+                "url" : "/music/SYRO/Syro U473t8+E [141.98].m4a"
+            },
+            {
+                "songId": "9",
+                "songTitle": "PAPAT4 (pineal mix)",
+                "songLength" : "4:18",
+                "url" : "/music/SYRO/Papat4 [155].m4a"
+            },
+            {
+                "songId": "10",
+                "songTitle": "s950tx16wasr10 (earth portal mix)",
+                "songLength" : "6:01",
+                "url" : "/music/SYRO/S950tx16wasr10 [163.97].m4a"
+            },
+            {
+                "songId": "11",
+                "songTitle": "aisatsana",
+                "songLength" : "5:21",
+                "url" : "/music/SYRO/Aisatsana [102].m4a"
+            }
+        ] 
+    }
+]
