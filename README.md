@@ -1,6 +1,6 @@
 # hello! this is my data application project for n320
 
-no music present in this project belongs to me. all right go to warp records and richard d. james, this is a passion project and counts as fair use --
+no music present in this project belongs to me. all rights go to warp records and richard d. james, this is a passion project and counts as fair use --
 
 all photos were downloaded from (https://aphextwin.nu), if the mod somehow comes across this i tried to get in contact with you but it seems your forum has been inactive for a couple years, i hope you are okay with me using 3 images
 
