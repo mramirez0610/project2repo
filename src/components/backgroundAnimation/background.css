@@ -4,9 +4,8 @@
     font-size: 15px;
     font-family: 'Source Code Pro';
     line-height: 22px;
-    color: white;
+    color: #2c2b2e;
     padding-left: 6px;
-    opacity: 10%;
     word-break: break-all;
     position: fixed;
 }
