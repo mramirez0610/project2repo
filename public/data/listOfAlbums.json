@@ -30,61 +30,61 @@
                 "songId": "3",
                 "songTitle": "Ageispolis",
                 "songLength" : "5:23",
-                "url" : "project2/music/SAW85-92/Ageispolis.m4a"
+                "url" : "music/SAW85-92/Ageispolis.m4a"
             },
             {
                 "songId": "4",
                 "songTitle": "i",
                 "songLength" : "1:17",
-                "url" : "project2/music/SAW85-92/I.m4a"
+                "url" : "music/SAW85-92/I.m4a"
             },
             {
                 "songId": "5",
                 "songTitle": "Green Calx",
                 "songLength" : "6:05",
-                "url" : "project2/usic/SAW85-92/Green Calx.m4a"
+                "url" : "music/SAW85-92/Green Calx.m4a"
             },
             {
                 "songId": "6",
                 "songTitle": "Heliosphan",
                 "songLength" : "4:51",
-                "url" : "project2/music/SAW85-92/Heliosphan.m4a"
+                "url" : "music/SAW85-92/Heliosphan.m4a"
             },
             {
                 "songId": "7",
                 "songTitle": "We Are The Music Makers",
                 "songLength" : "7:43",
-                "url" : "project2/music/SAW85-92/We Are The Music Makers.m4a"
+                "url" : "music/SAW85-92/We Are The Music Makers.m4a"
             },
             {
                 "songId": "8",
                 "songTitle": "Schottkey 7th Path",
                 "songLength" : "5:08",
-                "url" : "project2/music/SAW85-92/Schottkey 7th Path.m4a"
+                "url" : "music/SAW85-92/Schottkey 7th Path.m4a"
             },
             {
                 "songId": "9",
                 "songTitle": "Ptolemy",
                 "songLength" : "7:10",
-                "url" : "project2/music/SAW85-92/Ptolemy.m4a"
+                "url" : "music/SAW85-92/Ptolemy.m4a"
             },
             {
                 "songId": "10",
                 "songTitle": "Hedphelym",
                 "songLength" : "6:00",
-                "url" : "project2/music/SAW85-92/Hedphelym.m4a"
+                "url" : "music/SAW85-92/Hedphelym.m4a"
             },
             {
                 "songId": "11",
                 "songTitle": "Delphium",
                 "songLength" : "5:26",
-                "url" : "project2/music/SAW85-92/Delphium.m4a"
+                "url" : "music/SAW85-92/Delphium.m4a"
             },
             {
                 "songId": "12",
                 "songTitle": "Actium",
                 "songLength" : "7:32",
-                "url" : "project2/music/SAW85-92/Actium.m4a"
+                "url" : "music/SAW85-92/Actium.m4a"
             }
         ]
     },
@@ -101,73 +101,73 @@
                 "songId": "0",
                 "songTitle": "Acrid Avid Jam Shred",
                 "songLength" : "7:38",
-                "url" : "/music/ICBYD/Acrid Avid Jam Shred.m4a"
+                "url" : "music/ICBYD/Acrid Avid Jam Shred.m4a"
             },
             {
                 "songId": "1",
                 "songTitle": "The Waxen Pith",
                 "songLength" : "4:50",
-                "url" : "/music/ICBYD/The Waxen Pith.m4a"
+                "url" : "music/ICBYD/The Waxen Pith.m4a"
             },
             {
                 "songId": "2",
                 "songTitle": "Wax The Nip",
                 "songLength" : "4:19",
-                "url" : "/music/ICBYD/Wax the Nip.m4a"
+                "url" : "music/ICBYD/Wax the Nip.m4a"
             },
             {
                 "songId": "3",
                 "songTitle": "Icct Hedral",
                 "songLength" : "6:07",
-                "url" : "/music/ICBYD/Icct Hedral (Edit).m4a"
+                "url" : "music/ICBYD/Icct Hedral (Edit).m4a"
             },
             {
                 "songId": "4",
                 "songTitle": "Ventolin",
                 "songLength" : "4:29",
-                "url" : "/music/ICBYD/Ventolin (Video Version).m4a"
+                "url" : "music/ICBYD/Ventolin (Video Version).m4a"
             },
             {
                 "songId": "5",
                 "songTitle": "Come On You Slags!",
                 "songLength" : "5:45",
-                "url" : "/music/ICBYD/Come On You Slags!.m4a"
+                "url" : "music/ICBYD/Come On You Slags!.m4a"
             },
             {
                 "songId": "6",
                 "songTitle": "Start as You Mean to Go On",
                 "songLength" : "6:05",
-                "url" : "/music/ICBYD/Start as You Mean to Go On.m4a"
+                "url" : "music/ICBYD/Start as You Mean to Go On.m4a"
             },
             {
                 "songId": "7",
                 "songTitle": "Wet Tip Hen Ax",
                 "songLength" : "5:17",
-                "url" : "/music/ICBYD/Wet Tip Hen Ax.m4a"
+                "url" : "music/ICBYD/Wet Tip Hen Ax.m4a"
             },
             {
                 "songId": "8",
                 "songTitle": "Mookid",
                 "songLength" : "3:51",
-                "url" : "/music/ICBYD/Mookid.m4a"
+                "url" : "music/ICBYD/Mookid.m4a"
             },
             {
                 "songId": "9",
                 "songTitle": "Alberto Balsalm",
                 "songLength" : "5:11",
-                "url" : "/music/ICBYD/Alberto Balsalm.m4a"
+                "url" : "music/ICBYD/Alberto Balsalm.m4a"
             },
             {
                 "songId": "10",
                 "songTitle": "Cow Cud Is a Twin",
                 "songLength" : "5:34",
-                "url" : "/music/ICBYD/Cow Cud Is a Twin.m4a"
+                "url" : "music/ICBYD/Cow Cud Is a Twin.m4a"
             },
             {
                 "songId": "11",
                 "songTitle": "Next Heap With",
                 "songLength" : "4:43",
-                "url" : "/music/ICBYD/Next Heap With.m4a"
+                "url" : "music/ICBYD/Next Heap With.m4a"
             }
         ] 
     },
@@ -184,61 +184,61 @@
                 "songId": "0",
                 "songTitle": "4",
                 "songLength" : "3:37",
-                "url" : "/music/RDJA/4.m4a"
+                "url" : "music/RDJA/4.m4a"
             },
             {
                 "songId": "1",
                 "songTitle": "Cornish Acid",
                 "songLength" : "2:14",
-                "url" : "/music/RDJA/Cornish Acid.m4a"
+                "url" : "music/RDJA/Cornish Acid.m4a"
             },
             {
                 "songId": "2",
                 "songTitle": "Peek 824545201",
                 "songLength" : "3:05",
-                "url" : "/music/RDJA/Peek 824545201.m4a"
+                "url" : "music/RDJA/Peek 824545201.m4a"
             },
             {
                 "songId": "3",
                 "songTitle": "Fingerbib",
                 "songLength" : "3:48",
-                "url" : "/music/RDJA/Fingerbib.m4a"
+                "url" : "music/RDJA/Fingerbib.m4a"
             },
             {
                 "songId": "4",
                 "songTitle": "Carn Marth",
                 "songLength" : "2:33",
-                "url" : "/music/RDJA/Carn Marth.m4a"
+                "url" : "music/RDJA/Carn Marth.m4a"
             },
             {
                 "songId": "5",
                 "songTitle": "To Cure a Weakling Child",
                 "songLength" : "4:03",
-                "url" : "/music/RDJA/To Cure a Weakling Child.m4a"
+                "url" : "music/RDJA/To Cure a Weakling Child.m4a"
             },
             {
                 "songId": "6",
                 "songTitle": "Goon Gumpas",
                 "songLength" : "2:02",
-                "url" : "/music/RDJA/Goon Gumpas.m4a"
+                "url" : "music/RDJA/Goon Gumpas.m4a"
             },
             {
                 "songId": "7",
                 "songTitle": "Yellow Calx",
                 "songLength" : "3:04",
-                "url" : "/music/RDJA/Yellow Calx.m4a"
+                "url" : "music/RDJA/Yellow Calx.m4a"
             },
             {
                 "songId": "8",
                 "songTitle": "Girl/Boy Song",
                 "songLength" : "4:52",
-                "url" : "/music/RDJA/Girl _ Boy Song.m4a"
+                "url" : "music/RDJA/Girl _ Boy Song.m4a"
             },
             {
                 "songId": "9",
                 "songTitle": "Logan Rock Witch",
                 "songLength" : "3:33",
-                "url" : "/music/RDJA/Logan Rock Witch.m4a"
+                "url" : "music/RDJA/Logan Rock Witch.m4a"
             }
         ] 
     },
@@ -255,73 +255,73 @@
                 "songId": "0",
                 "songTitle": "minipops 67 (source field mix)",
                 "songLength" : "4:47",
-                "url" : "/music/SYRO/Minipops 67 [120.2].m4a"
+                "url" : "music/SYRO/Minipops 67 [120.2].m4a"
             },
             {
                 "songId": "1",
                 "songTitle": "XMAS_EVET10 (thanaton3 mix)",
                 "songLength" : "10:31",
-                "url" : "/music/SYRO/Xmas_evet10 [120].m4a"
+                "url" : "music/SYRO/Xmas_evet10 [120].m4a"
             },
             {
                 "songId": "2",
                 "songTitle": "produk 29",
                 "songLength" : "5:03",
-                "url" : "/music/SYRO/Produk 29 [101].m4a"
+                "url" : "music/SYRO/Produk 29 [101].m4a"
             },
             {
                 "songId": "3",
                 "songTitle": "4 bit 9d api+e+6",
                 "songLength" : "4:28",
-                "url" : "/music/SYRO/4 Bit 9D Api+E+6 [126.26].m4a"
+                "url" : "music/SYRO/4 Bit 9D Api+E+6 [126.26].m4a"
             },
             {
                 "songId": "4",
                 "songTitle": "180db_",
                 "songLength" : "3:11",
-                "url" : "/music/SYRO/180Db_ [130].m4a"
+                "url" : "music/SYRO/180Db_ [130].m4a"
             },
             {
                 "songId": "5",
                 "songTitle": "CIRCLONT6A (syrobonkus mix)",
                 "songLength" : "6:00",
-                "url" : "/music/SYRO/Circlont6a [141.98].m4a"
+                "url" : "music/SYRO/Circlont6a [141.98].m4a"
             },
             {
                 "songId": "6",
                 "songTitle": "fz pseudotimestretch+e+3",
                 "songLength" : "0:58",
-                "url" : "/music/SYRO/Fz Pseudotimestretch+E+3 [138.85].m4a"
+                "url" : "music/SYRO/Fz Pseudotimestretch+E+3 [138.85].m4a"
             },
             {
                 "songId": "7",
                 "songTitle": "CIRCLONT14 (shrymoming mix)",
                 "songLength" : "7:21",
-                "url" : "/music/SYRO/Circlont14 [152.97].m4a"
+                "url" : "music/SYRO/Circlont14 [152.97].m4a"
             },
             {
                 "songId": "8",
                 "songTitle": "syro u473t8+e (piezoluminescence mix)",
                 "songLength" : "6:32",
-                "url" : "/music/SYRO/Syro U473t8+E [141.98].m4a"
+                "url" : "music/SYRO/Syro U473t8+E [141.98].m4a"
             },
             {
                 "songId": "9",
                 "songTitle": "PAPAT4 (pineal mix)",
                 "songLength" : "4:18",
-                "url" : "/music/SYRO/Papat4 [155].m4a"
+                "url" : "music/SYRO/Papat4 [155].m4a"
             },
             {
                 "songId": "10",
                 "songTitle": "s950tx16wasr10 (earth portal mix)",
                 "songLength" : "6:01",
-                "url" : "/music/SYRO/S950tx16wasr10 [163.97].m4a"
+                "url" : "music/SYRO/S950tx16wasr10 [163.97].m4a"
             },
             {
                 "songId": "11",
                 "songTitle": "aisatsana",
                 "songLength" : "5:21",
-                "url" : "/music/SYRO/Aisatsana [102].m4a"
+                "url" : "music/SYRO/Aisatsana [102].m4a"
             }
         ] 
     }
