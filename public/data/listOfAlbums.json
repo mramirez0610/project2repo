@@ -12,19 +12,19 @@
                 "songId": "0",
                 "songTitle": "Xtal",
                 "songLength" : "4:54",
-                "url" : "project2/music/SAW85-92/Xtal.m4a"
+                "url" : "music/SAW85-92/Xtal.m4a"
             },
             {
                 "songId": "1",
                 "songTitle": "Tha",
                 "songLength" : "9:06",
-                "url" : "project2/music/SAW85-92/Tha.m4a"
+                "url" : "music/SAW85-92/Tha.m4a"
             },
             {
                 "songId": "2",
                 "songTitle": "PulseWidth",
                 "songLength" : "3:46",
-                "url" : "project2/music/SAW85-92/Pulsewidth.m4a"
+                "url" : "music/SAW85-92/Pulsewidth.m4a"
             },
             {
                 "songId": "3",
